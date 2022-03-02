@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .html{
+            padding: 7px 14px 7px 14px;
+            margin: 5px;
+            height: 100%;
+            width:25%;}
+        .body{border: 2px dotted rgb(60, 123, 196, 1.0);
+            border-radius: 10px;
+            padding: 7px 15px 1px 15px;
+            margin: 5px;
+            height: 100%;
+            width:50%;}
+            .header{border: 3px solid rgb(60, 123, 196, 1.0);
+            background-color: rgb(221, 231, 243);
+            border-radius: 10px;
+            padding: 7px 40px 7px 40px;
+            margin: 5px;}
+            .h1{border: 3px solid orange;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+        
+            .main{border: 3px solid rgb(60, 123, 196, 1.0);
+            background-color: rgb(221, 231, 243);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+            .nav{border: 3px solid rgb(220, 135, 228);
+            background-color: rgb(240, 229, 241);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+            .section{border: 3px solid rgb(220, 135, 228);
+            background-color: rgb(240, 229, 241);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+            .p {border: 3px solid rgb(236, 141, 181);
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+            .p{border: 3px solid rgb(236, 141, 181);
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+            .section{border: 3px solid rgb(220, 135, 228);
+            background-color: rgb(240, 229, 241);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+            .footer{border: 3px solid rgb(60, 123, 196, 1.0);
+            background-color: rgb(221, 231, 243);
+            border-radius: 10px;
+            padding: 7px 7px 7px 7px;
+            margin: 5px;}
+
+ 
+
+            .htmlfont{color: rgb(60, 123, 196, 1.0);}
+            .headerfont{color:rgb(60, 123, 196, 1.0);}
+            .bodyfont{color:rgb(60, 123, 196, 1.0);}
+            .h1font{color:orange}
+            .mainfont{color:rgb(60, 123, 196, 1.0);}
+            .navfont{color: rgb(220, 135, 228);}
+            .sectionfont{color:rgb(220, 135, 228);}
+            .p1font{color:rgb(236, 141, 181);}
+            .p2font{color:rgb(236, 141, 181);}
+            .section2font{color:rgb(220, 135, 228);}
+            .footerfont{color:rgb(60, 123, 196, 1.0);}
+            .dd{style="font-family:font-family: 'Montserrat', sans-serif;"}
+    </style>
+</head>
+<body>
+    
+    <dl clas="html">
+         <dt class="htmlfont">html</dt>
+            <dl class="body">
+                <dt class="bodyfont">body</dt>
+                   <!-- header -->
+    <dl class="header"><dt class="headerfont">header</dt>
+        <dl class="h1">
+        <dt class="h1font">h1</dt>
+            <dd><h3><b>Сайт начинающего верстальщика</b></h3></dd>
+            </dl>
+<!-- main -->
+           
+             <dl class="main"> <dt class="mainfont">Main</dt>
+               <dl class="nav">
+               <dt class="navfont">nav</dt>
+               <dd>Навигация</dd></dl>
+            <dl class="section">
+                <dt class="sectionfont">section</dt>
+                
+            <dl class="p">
+                <dt class="p1font">p</dt>
+            <dd>Всем привет! Добро пожаловать на мой первый сайт. 
+                Еще недавнот я понятия не имел, кто такой верстальщик, а теперь я нашел интерактивные курсы по HTML и CSS и поставил перед собой цель- стать им. 
+                У меня даже появился инструктор - Кекс,
+                 который не позволит мне расслабиться и будет следить за моими успехами.</dd></dl>
+            <dl class="p"> 
+                <dt class="p2font">p</dt>
+                <dd>Мое первое задание - вести длневник и честно рассказывать обо всех своих свершениях.</dd></dl></dl>
+
+           <dl class="section"> <dt class="section2font">section</dt>
+            <dd>Раздел про навыки</dd></dl> </dl> 
+                <!-- футер -->
+                <dl class="footer">
+                    <dt class="footerfont">Footer</dt>
+                    <dd>Подвал сайта</dd>
+                </dl>
+            </dl>
+        </dl>
+</body>
+</html>
